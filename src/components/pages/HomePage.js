@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Events from './Events';
 import Results from './Results'
-import { ChakraProvider } from '@chakra-ui/react';
 import ReactSlider from 'react-slider';
 
 function HomePage() {
@@ -21,7 +20,7 @@ function HomePage() {
             </header>
             <section id="eventDisplay">
                 <Events title={"Schabraum Park Cleanup"} attending={10} capacity={20} imageSrc={"https://parks.lacounty.gov/wp-content/uploads/2018/06/Edited_PeterFSchabarumRegionalPark-42-of-52-1920x1280.jpg"}></Events>
-                <Events title={"Chino Hills Cleanup"} attending={10} capacity={20} imageSrc={"https://parksguidance.com/wp-content/uploads/2022/08/flowers-at-Chino-Hills-State-Park.jpg"}></Events>
+                <Events title={"Chino Hills Cleanup"} attending={10} capacity={20} imageSrc={"https://www.gstatic.com/webp/gallery/5.jpg"}></Events>
                 <Events title={"New Event"} attending={10} capacity={20}></Events>
             </section>
             

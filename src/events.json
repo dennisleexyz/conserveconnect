@@ -1,0 +1,129 @@
+[  {    
+    "name": "Spring Nature Walk",    
+    "eventID": 4156,    
+    "createdBy": "Local Park Service",    
+    "capacity": 50,    
+    "attending": 30,    
+    "description": "Join us for a guided nature walk to discover the beauty of spring flora and fauna in the park!",    "tags": ["nature", "wildlife", "outdoors"],
+    "coords": {
+      "x": 37.7749,
+      "y": -122.4194
+    }
+  },
+  {
+    "name": "Community Health Fair",
+    "eventID": 6629,
+    "createdBy": "Community Health Center",
+    "capacity": 200,
+    "attending": 180,
+    "description": "Get free health screenings, learn about healthy lifestyle choices, and enjoy fun activities for the whole family at our annual health fair!",
+    "tags": ["health", "wellness", "community"],
+    "coords": {
+      "x": 40.7128,
+      "y": -74.0060
+    }
+  },
+  {
+    "name": "Volunteer Day at the Animal Shelter",
+    "eventID": 2023,
+    "createdBy": "Local Animal Rescue",
+    "capacity": 25,
+    "attending": 20,
+    "description": "Help us care for and socialize with our furry friends at the shelter. No experience necessary!",
+    "tags": ["animals", "volunteer", "community"],
+    "coords": {
+      "x": 33.7175,
+      "y": -117.8311
+    }
+  },
+  {
+    "name": "Youth Leadership Summit",
+    "eventID": 8735,
+    "createdBy": "Nonprofit Organization for Youth Empowerment",
+    "capacity": 100,
+    "attending": 95,
+    "description": "Join us for a day of workshops, speakers, and networking opportunities to empower young leaders to make a positive impact in their communities!",
+    "tags": ["youth", "leadership", "empowerment"],
+    "coords": {
+      "x": 47.6062,
+      "y": -122.3321
+    }
+  },
+  {
+    "name": "Earth Day Cleanup",
+    "eventID": 4312,
+    "createdBy": "Local Environmental Group",
+    "capacity": 50,
+    "attending": 40,
+    "description": "Help us clean up the local park and waterways to protect our planet and wildlife!",
+    "tags": ["environment", "cleanup", "community"],
+    "coords": {
+      "x": 39.9526,
+      "y": -75.1652
+    }
+  },
+  {    
+    "name": "Beach Cleanup Day",    
+    "eventID": 9138,    
+    "createdBy": "Local Environmental Group",    
+    "capacity": 100,    
+    "attending": 80,    
+    "description": "Join us for a day of cleaning up the beach and keeping our oceans clean! Bring your own gloves and bags if you can.",    "tags": ["environment", "cleanup", "beach"],
+    "coords": {
+      "x": 33.6598,
+      "y": -117.9981
+    }
+  },
+  {
+    "name": "Mental Health Awareness Symposium",
+    "eventID": 6294,
+    "createdBy": "Mental Health Foundation",
+    "capacity": 150,
+    "attending": 120,
+    "description": "Join us for a day of discussion and education about mental health and how to support those struggling with mental health issues.",
+    "tags": ["mental health", "awareness", "education"],
+    "coords": {
+      "x": 34.0522,
+      "y": -118.2437
+    }
+  },
+  {
+    "name": "Charity Walk for Cancer Research",
+    "eventID": 2048,
+    "createdBy": "Cancer Research Foundation",
+    "capacity": 500,
+    "attending": 400,
+    "description": "Join us for a walk to raise funds for cancer research! All proceeds go towards finding a cure for cancer.",
+    "tags": ["charity", "cancer research", "fundraiser"],
+    "coords": {
+      "x": 40.4406,
+      "y": -79.9959
+    }
+  },
+  {
+    "name": "Coding Bootcamp",
+    "eventID": 7789,
+    "createdBy": "Tech Education Group",
+    "capacity": 30,
+    "attending": 20,
+    "description": "Join us for a week-long intensive coding bootcamp to learn programming fundamentals and web development skills!",
+    "tags": ["tech", "education", "coding"],
+    "coords": {
+      "x": 37.7749,
+      "y": -122.4194
+    }
+  },
+  {
+    "name": "Community Garden Day",
+    "eventID": 3298,
+    "createdBy": "Local Gardening Club",
+    "capacity": 50,
+    "attending": 45,
+    "description": "Join us for a day of gardening and community building at the local community garden. All ages and experience levels welcome!",
+    "tags": ["community", "gardening", "volunteer"],
+    "coords": {
+      "x": 42.3601,
+      "y": -71.0589
+    }
+  }
+]
