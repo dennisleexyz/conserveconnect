@@ -4,11 +4,13 @@
     "createdBy": "Local Park Service",    
     "capacity": 50,    
     "attending": 30,    
-    "description": "Join us for a guided nature walk to discover the beauty of spring flora and fauna in the park!",    "tags": ["nature", "wildlife", "outdoors"],
+    "description": "Join us for a guided nature walk to discover the beauty of spring flora and fauna in the park!",    
+    "tags": ["nature", "animals"],
     "coords": {
       "x": 37.7749,
       "y": -122.4194
-    }
+    },
+    "image": "https://www.plt.org/wp-content/uploads/2018/03/nature-walk-activities.jpg"
   },
   {
     "name": "Community Health Fair",
@@ -17,11 +19,12 @@
     "capacity": 200,
     "attending": 180,
     "description": "Get free health screenings, learn about healthy lifestyle choices, and enjoy fun activities for the whole family at our annual health fair!",
-    "tags": ["health", "wellness", "community"],
+    "tags": ["health"],
     "coords": {
       "x": 40.7128,
       "y": -74.0060
-    }
+    },
+    "image": "https://www.redcross.org/content/dam/redcross/local/news-articles/eastern-new-york/10961-007.jpg.transform/1288/q70/feature/image.jpeg"
   },
   {
     "name": "Volunteer Day at the Animal Shelter",
@@ -30,11 +33,12 @@
     "capacity": 25,
     "attending": 20,
     "description": "Help us care for and socialize with our furry friends at the shelter. No experience necessary!",
-    "tags": ["animals", "volunteer", "community"],
+    "tags": ["animals"],
     "coords": {
       "x": 33.7175,
       "y": -117.8311
-    }
+    },
+    "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2022%2F02%2F04%2Fshelters-are-feeling-the-stress-2-1141250263-2000.jpg&q=60"
   },
   {
     "name": "Youth Leadership Summit",
@@ -43,11 +47,12 @@
     "capacity": 100,
     "attending": 95,
     "description": "Join us for a day of workshops, speakers, and networking opportunities to empower young leaders to make a positive impact in their communities!",
-    "tags": ["youth", "leadership", "empowerment"],
+    "tags": ["social justice"],
     "coords": {
       "x": 47.6062,
       "y": -122.3321
-    }
+    },
+    "image": "https://images.squarespace-cdn.com/content/v1/5ac285c04eddecf58e185097/1660564323098-E4LV4T1HF5JJ2G8BGXJ3/yls12.JPG"
   },
   {
     "name": "Earth Day Cleanup",
@@ -56,11 +61,12 @@
     "capacity": 50,
     "attending": 40,
     "description": "Help us clean up the local park and waterways to protect our planet and wildlife!",
-    "tags": ["environment", "cleanup", "community"],
+    "tags": ["environmental", "cleanup", "nature"],
     "coords": {
       "x": 39.9526,
       "y": -75.1652
-    }
+    },
+    "image": "https://www.anacostiaws.org/components/com_rseventspro/assets/images/events/thumbs/1200/df46f07e74d93f4f52172c5ec296be61.jpg"
   },
   {    
     "name": "Beach Cleanup Day",    
@@ -68,11 +74,13 @@
     "createdBy": "Local Environmental Group",    
     "capacity": 100,    
     "attending": 80,    
-    "description": "Join us for a day of cleaning up the beach and keeping our oceans clean! Bring your own gloves and bags if you can.",    "tags": ["environment", "cleanup", "beach"],
+    "description": "Join us for a day of cleaning up the beach and keeping our oceans clean! Bring your own gloves and bags if you can.",    
+    "tags": ["environmental", "cleanup"],
     "coords": {
       "x": 33.6598,
       "y": -117.9981
-    }
+    },
+    "image": "https://i0.wp.com/biofriendlyplanet.com/wp-content/uploads/2021/09/pexels-ron-lach-9034102.jpg?fit=1280%2C853&ssl=1"
   },
   {
     "name": "Mental Health Awareness Symposium",
@@ -81,11 +89,12 @@
     "capacity": 150,
     "attending": 120,
     "description": "Join us for a day of discussion and education about mental health and how to support those struggling with mental health issues.",
-    "tags": ["mental health", "awareness", "education"],
+    "tags": ["mental health"],
     "coords": {
       "x": 34.0522,
       "y": -118.2437
-    }
+    },
+    "image": "https://www.allarts.org/wp-content/uploads/2021/08/ROOM-FULL1.jpg"
   },
   {
     "name": "Charity Walk for Cancer Research",
@@ -94,11 +103,12 @@
     "capacity": 500,
     "attending": 400,
     "description": "Join us for a walk to raise funds for cancer research! All proceeds go towards finding a cure for cancer.",
-    "tags": ["charity", "cancer research", "fundraiser"],
+    "tags": ["social justice"],
     "coords": {
       "x": 40.4406,
       "y": -79.9959
-    }
+    },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9YABDP9NoUa_tiPC6ld0qNfkeHqqc8SCEgA&usqp=CAU"
   },
   {
     "name": "Coding Bootcamp",
@@ -107,11 +117,12 @@
     "capacity": 30,
     "attending": 20,
     "description": "Join us for a week-long intensive coding bootcamp to learn programming fundamentals and web development skills!",
-    "tags": ["tech", "education", "coding"],
+    "tags": ["education"],
     "coords": {
       "x": 37.7749,
       "y": -122.4194
-    }
+    },
+    "image": "https://programminglibrarian.org/sites/default/files/pictures/15903562908_db5c1d4b5e_o.jpg"
   },
   {
     "name": "Community Garden Day",
@@ -120,10 +131,11 @@
     "capacity": 50,
     "attending": 45,
     "description": "Join us for a day of gardening and community building at the local community garden. All ages and experience levels welcome!",
-    "tags": ["community", "gardening", "volunteer"],
+    "tags": ["environmental"],
     "coords": {
       "x": 42.3601,
       "y": -71.0589
-    }
+    },
+    "image": "https://civicwell.org/wp-content/uploads/2013/07/feature-cultivating-community-gardens.jpg"
   }
 ]

@@ -83,7 +83,10 @@ body {
   height: 100%;
 }
 
-.capInfo > p {}
+.capInfo > p {
+  margin: 0;
+  align-self: center;
+}
 
 .eventDesc > p {
   text-align: left;
