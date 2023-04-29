@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import Events from './Events';
+import Results from './Results'
+import { ChakraProvider } from '@chakra-ui/react';
+import ReactSlider from 'react-slider';
+
 function HomePage() {
     const [first, setfirst] = useState("");
     const [events, setEvents] = useState();
@@ -20,6 +24,8 @@ function HomePage() {
                 <Events title={"Chino Hills Cleanup"} attending={10} capacity={20} imageSrc={"https://parksguidance.com/wp-content/uploads/2022/08/flowers-at-Chino-Hills-State-Park.jpg"}></Events>
                 <Events title={"New Event"} attending={10} capacity={20}></Events>
             </section>
+            
+            <ReactSlider></ReactSlider>
         </>
     )
 }

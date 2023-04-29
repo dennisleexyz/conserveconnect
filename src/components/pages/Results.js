@@ -21,7 +21,7 @@ import {
 
 import { useDisclosure } from "@chakra-ui/react";
 
-export const Results = () => {
+const Results = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [sliderValue, setSliderValue] = React.useState(5)
   const [showTooltip, setShowTooltip] = React.useState(false)
@@ -78,3 +78,5 @@ export const Results = () => {
     </>
   );
 };
+
+export default Results;

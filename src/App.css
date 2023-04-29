@@ -30,7 +30,7 @@ body {
 }
 
 #eventDisplay {
-  width: 60%;
+  width: 70%;
   padding-top: 70px;
   display: flex;
   flex-direction: column;
@@ -83,10 +83,7 @@ body {
   height: 100%;
 }
 
-.capInfo > p {
-  margin: 0;
-  align-self: center;
-}
+.capInfo > p {}
 
 .eventDesc > p {
   text-align: left;

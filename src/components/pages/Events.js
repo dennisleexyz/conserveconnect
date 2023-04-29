@@ -1,5 +1,4 @@
 import React from 'react'
-import background from "../images/schabraum.png"
 
 function Events(props) {
   return (
