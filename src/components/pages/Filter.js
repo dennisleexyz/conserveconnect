@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import ReactSlider from "react-slider";
 
-function Filter() {
-    const [miles, setMiles] = useState(30)
+function Filter(props) {
   return (
     <div id="filter">
         <h3>Distance Away</h3>
@@ -11,9 +10,9 @@ function Filter() {
             thumbClassName="example-thumb"
             trackClassName="example-track"
             defaultValue={30}
-            onChange={(value) => setMiles(value)}
+            onChange={(value) => props.setMiles(value)}
         />
-        <h4>{miles != 100 ? miles : miles + "+"} miles</h4>
+        <h4>{props.miles != 100 ? props.miles : props.miles + "+"} miles</h4>
     </div>
   )
 }

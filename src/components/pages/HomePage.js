@@ -1,12 +1,21 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Events from './Events';
 import jsonEvents from '../../events.json'
 import Filter from './Filter';
+import { intersection, filter, sortTag, user } from '../../lib.js'
 
 function HomePage() {
     const [first, setfirst] = useState("");
     const [events, setEvents] = useState(jsonEvents);
+    const [miles, setMiles] = useState(30);
 
+    useEffect(() => {
+        console.log(user)
+      return () => {
+        
+      }
+    }, [])
+    
 
     return (
         <>
@@ -14,7 +23,7 @@ function HomePage() {
                 <nav>
                 </nav>
                 <div id="pageLogo">
-                    <h2>ConserveConnect</h2>
+                    <h2>conserveConnect</h2>
                 </div>
             </header>
             <section id="eventDisplay">
@@ -22,7 +31,7 @@ function HomePage() {
                     return <Events title={event.name} description={event.description} attending={event.attending} capacity={event.capacity} imageSrc={event.image}></Events>
                 })}
             </section>
-            <Filter></Filter>
+            <Filter setMiles={setMiles} miles={miles}></Filter>
         </>
     )
 }

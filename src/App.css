@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Poppins';
 }
 body {
   background-color: #272727;
@@ -118,6 +119,8 @@ body {
 
 #filter {
   color: white;
+  padding: 10px;
+  border: white solid 1.5px;
   text-align: left;
 }
 
