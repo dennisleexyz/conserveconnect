@@ -87,6 +87,11 @@ body {
   text-align: left;
 }
 
+.eventDesc > h4 {
+  text-align: left;
+  margin: 5px 0 0 0;
+}
+
 .capInfo {
   display: flex;
   flex-direction: row;
@@ -106,7 +111,8 @@ body {
   text-align: left;
   overflow: hidden;
   text-overflow: ellipsis;
-  height: 90px;
+  white-space: nowrap;
+  height: 20px;
   width: 90%;
 }
 
@@ -117,6 +123,7 @@ body {
   border: none;
   color: white;
   padding: 5px;
+  margin-top: auto;
 }
 
 .eventButton:hover {

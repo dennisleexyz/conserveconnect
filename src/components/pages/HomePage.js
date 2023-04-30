@@ -20,7 +20,7 @@ function HomePage() {
             </header>
             <section id="eventDisplay">
                 {filter(events, miles).map(event => {
-                    return <Events title={event.name} description={event.description} attending={event.attending} capacity={event.capacity} imageSrc={event.image}></Events>
+                    return <Events title={event.name} tags={event.tags} description={event.description} attending={event.attending} capacity={event.capacity} imageSrc={event.image}></Events>
                 })}
             </section>
             <Filter setMiles={setMiles} miles={miles}></Filter>
