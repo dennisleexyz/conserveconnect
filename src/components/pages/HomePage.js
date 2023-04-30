@@ -5,7 +5,6 @@ import Filter from './Filter';
 import { intersection, filter, sortTag, user } from '../../lib.js'
 
 function HomePage() {
-    const [first, setfirst] = useState("");
     const [events, setEvents] = useState(jsonEvents);
     const [miles, setMiles] = useState(30);
 
@@ -19,11 +18,12 @@ function HomePage() {
 
     return (
         <>
+            <div className='modalScreen' style={{display: "none"}}></div>
             <header id="pageHeader">
                 <nav>
                 </nav>
                 <div id="pageLogo">
-                    <h2>conserveConnect</h2>
+                    <h2>conserveConnect.</h2>
                 </div>
             </header>
             <section id="eventDisplay">
