@@ -9,14 +9,6 @@ function HomePage() {
     const [events, setEvents] = useState(jsonEvents);
     const [miles, setMiles] = useState(30);
 
-    useEffect(() => {
-        console.log(user)
-      return () => {
-        
-      }
-    }, [])
-    
-
     return (
         <>
             <header id="pageHeader">
@@ -27,7 +19,7 @@ function HomePage() {
                 </div>
             </header>
             <section id="eventDisplay">
-                {events.map(event => {
+                {filter(events, miles).map(event => {
                     return <Events title={event.name} description={event.description} attending={event.attending} capacity={event.capacity} imageSrc={event.image}></Events>
                 })}
             </section>

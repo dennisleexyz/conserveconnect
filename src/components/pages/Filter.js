@@ -9,6 +9,7 @@ function Filter(props) {
             className="horizontal-slider"
             thumbClassName="example-thumb"
             trackClassName="example-track"
+            min={1}
             defaultValue={30}
             onChange={(value) => props.setMiles(value)}
         />
