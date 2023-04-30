@@ -3,6 +3,7 @@ import Events from './Events';
 import Results from './Results'
 import ReactSlider from 'react-slider';
 import events from '../../events.json'
+import lib, { intersection, filter, sortTag } from '../../lib.js'
 
 function HomePage() {
     const [first, setfirst] = useState("");
