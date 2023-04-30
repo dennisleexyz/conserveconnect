@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import Events from './Events';
-import Results from './Results'
-import ReactSlider from 'react-slider';
-import events from '../../events.json'
+import jsonEvents from '../../events.json'
+import Filter from './Filter';
 
 function HomePage() {
     const [first, setfirst] = useState("");
-   /*  const [events, setEvents] = useState(); */
+    const [events, setEvents] = useState(jsonEvents);
 
 
     return (
@@ -23,12 +22,8 @@ function HomePage() {
                 {events.map(event => {
                     return <Events title={event.name} description={event.description} attending={event.attending} capacity={event.capacity} imageSrc={event.image}></Events>
                 })}
-                <Events title={"Schabraum Park Cleanup"} attending={10} capacity={20} imageSrc={"https://parks.lacounty.gov/wp-content/uploads/2018/06/Edited_PeterFSchabarumRegionalPark-42-of-52-1920x1280.jpg"}></Events>
-                <Events title={"Chino Hills Cleanup"} attending={10} capacity={20} imageSrc={"https://www.gstatic.com/webp/gallery/5.jpg"}></Events>
-                <Events title={"New Event"} attending={10} capacity={20}></Events>
             </section>
-            
-            <ReactSlider></ReactSlider>
+            <Filter></Filter>
         </>
     )
 }
